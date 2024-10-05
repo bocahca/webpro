@@ -74,3 +74,46 @@ td a {
 td a:hover {
     color: black;
 }
+
+body.body-bg {
+    background-color: #A0937D;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1.title {
+    color: cornsilk;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+hr.separator {
+    border: none;
+    height: 10px;
+    background-color: #6C4E31;
+    margin: 20px 0;
+}
+
+.data-text {
+    color: ghostwhite;
+    font-size: medium;
+    line-height: 1.6;
+}
+
+img.profile-pict{
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media{
+    align-content: center;
+}
+
+h1.contact{
+    font-size: large;
+    color: white;
+}
