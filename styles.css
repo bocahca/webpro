@@ -21,6 +21,7 @@ header {
     height: 70%;
     display: flex;
     background-color: #E1D7C6;
+    flex: 1 0 auto;
 }
 
 #menu {
@@ -34,7 +35,6 @@ main {
 }
 
 .logo {
-    width: 12%;
     background-color: #E1D7C6;
 }
 
