@@ -4,6 +4,13 @@ html {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: verdana;
+}
+
+header {
+    background-color: #B17457;
+    color: white;
+    font-size: 20px; /* Size 5 in HTML is roughly 20px */
 }
 
 .header {
@@ -12,7 +19,6 @@ html {
 
 .content {
     height: 70%;
-    /* Ubah untuk memberikan ruang bagi footer */
     display: flex;
     background-color: #E1D7C6;
 }
@@ -23,7 +29,7 @@ html {
 
 }
 
-.main {
+main {
     width: 60%;
 }
 
@@ -32,14 +38,17 @@ html {
     background-color: #E1D7C6;
 }
 
-.footer {
+footer {
     height: 10%;
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     border: none;
-    background-color: blue;
+    background-color: #4A4947;
+    color: white;
+    font-size: 16px;
+    font-family: verdana;
 }
 
 iframe {
