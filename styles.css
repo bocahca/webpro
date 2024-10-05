@@ -111,6 +111,11 @@ img.profile-pict{
 
 .social-media{
     align-content: center;
+    text-decoration: underline;
+}
+
+a.sosmed{
+    color: rgb(117, 20, 20);
 }
 
 h1.contact{
