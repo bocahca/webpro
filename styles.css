@@ -46,17 +46,23 @@ main {
 }
 
 footer {
-    height: 10%;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    border: none;
     background-color: #4A4947;
     color: white;
     font-size: 16px;
-    font-family: verdana;
-    padding-left: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#sosmed-logo {
+    width: 30px;
+}
+.github-rep td a:hover {
+    color: rgb(45, 114, 178);
 }
 
 iframe {
@@ -160,3 +166,4 @@ h1.contact{
     font-size: large;
     color: white;
 }
+
